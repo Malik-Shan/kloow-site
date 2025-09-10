@@ -1,0 +1,72 @@
+---
+// Basic Cards grid Section
+// ------------
+// Description: A grid of cards with basic contact information in a 4 column layout.
+// Properties:
+// - classes: Additional classes to be added to the Section
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/BasicCard.astro'
+
+// 	Props
+type Props = {
+	classes?: string
+}
+const { classes } = Astro.props
+---
+<Section id="requests" classes={classes}>
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-balance">
+				Have a Special Request? We’re Here to <strong>Help!</strong>
+			</h2>
+			<p class="pb-0 text-lg">
+				Pick the option that best fits your needs. Whether it’s support, sales, feature
+				ideas, or general feedback — the KLOOW team is ready to jump in and assist.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="3">
+			<Card
+				title="Customer Support"
+				subtitle="Need a hand with KLOOW? Our support crew is here around the clock to solve issues and answer your questions."
+				icon="rocket"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+		<Col span="3">
+			<Card
+				title="Sales Inquiries"
+				subtitle="Curious about our plans or need something tailored? Chat with our sales team to find the perfect KLOOW fit."
+				icon="document-text"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+		<Col span="3">
+			<Card
+				title="Feature Requests"
+				subtitle="Got an idea to make KLOOW even smarter? Share your feature requests — we’re always listening."
+				icon="bolt"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+		<Col span="3" classes="flex flex-col gap-6">
+			<Card
+				title="General Feedback"
+				subtitle="Your input helps us grow. Tell us what you love or what we can improve — we value every word."
+				icon="chat-bubble-left-ellipsis"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+	</Row>
+</Section>

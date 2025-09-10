@@ -1,0 +1,36 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import FormHero from '../components/blocks/hero/ContactHero.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+import ContactCards from '../components/blocks/contact/ContactCards.astro'
+import SocialProof from '../components/blocks/socialproof/Basic.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'KLOOW | Get in Touch with Us',
+	description:
+		'Got questions, ideas, or feedback? Reach out to KLOOW today. Our team is here to help you streamline your marketing, boost collaboration, and get the most out of your KLOOW experience.'
+}
+
+// - Page Header
+const header = {
+	title: 'Let’s Talk <strong>KLOOW</strong>!',
+	text: "Whether you need support, have a question, or just want to share your ideas, we’d love to hear from you. The KLOOW team is here to help you every step of the way."
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<FormHero
+		title={header.title}
+		text={header.text}
+		id="contact"
+		classes="bg-neutral-50 dark:bg-neutral-950/80"
+	/>
+	<ContactCards classes="dark:bg-neutral-950/80" />
+	<SocialProof classes="dark:bg-neutral-950/80" />
+	<CTA />
+</Layout>

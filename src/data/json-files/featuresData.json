@@ -1,0 +1,230 @@
+[
+	{
+		"title": "Real-Time Analytics",
+		"icon": "chart-pie",
+		"description": "Instantly gain insights with Foxi's real-time analytics. Track performance metrics, user behavior, and campaign results with ease.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Customizable Dashboards",
+		"icon": "squares-plus",
+		"description": "Design dashboards that fit your workflow. Organize data and focus on what matters most to your business.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Task Management",
+		"icon": "cliboard-document-check",
+		"description": "Easily manage tasks and projects. Assign responsibilities, track progress, and collaborate seamlessly.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Third-Party Apps",
+		"icon": "rocket",
+		"description": "Connect Foxi with your favorite tools and apps. Streamline workflows and boost team productivity.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Mobile Accessibility",
+		"icon": "device-phone-mobile",
+		"description": "Work on the go with Foxi’s mobile app. Access features, manage tasks, and collaborate anytime, anywhere.",
+		"category": "Support"
+	},
+	{
+		"title": "Dedicated Customer Support",
+		"icon": "trophy",
+		"description": "Our 24/7 support team is always ready to assist you with quick and reliable help whenever needed.",
+		"category": "Support"
+	},
+	{
+		"title": "Robust Data Security",
+		"icon": "shield-check",
+		"description": "Keep your information safe with enterprise-grade security protocols and data protection measures.",
+		"category": "Security"
+	},
+	{
+		"title": "Scalability",
+		"icon": "arrow-treding-up",
+		"description": "Foxi grows with your business. Whether you're a startup or enterprise, our platform scales effortlessly.",
+		"category": "Security"
+	},
+	{
+		"title": "Real-Time Notifications",
+		"icon": "bell-alert",
+		"description": "Stay informed with instant alerts and notifications for important updates and activities.",
+		"category": "Security"
+	},
+	{
+		"title": "Advanced Reporting",
+		"icon": "clipboard-document-list",
+		"description": "Generate detailed, customizable reports to track KPIs and gain deep insights into performance.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Team Collaboration Tools",
+		"icon": "user-group",
+		"description": "Improve teamwork with communication and project tools. Share updates, files, and feedback easily.",
+		"category": "Productivity"
+	},
+	{
+		"title": "In-App Messaging",
+		"icon": "chat-bubble-left-right",
+		"description": "Keep conversations in one place with in-app messaging. Collaborate without switching tools.",
+		"category": "Integrations"
+	},
+	{
+		"title": "Multi-Device Sync",
+		"icon": "computer-desktop",
+		"description": "Sync your data across all devices in real time. Access and work consistently from anywhere.",
+		"category": "Support"
+	},
+	{
+		"title": "Customizable Alerts",
+		"icon": "bell",
+		"description": "Set up tailored alerts for key events. Stay in control with notifications designed for your workflow.",
+		"category": "Support"
+	},
+	{
+		"title": "API Integrations",
+		"icon": "arrow-path-rounded-square",
+		"description": "Extend Foxi with flexible API integrations. Connect effortlessly with external tools and services.",
+		"category": "Integrations"
+	},
+	{
+		"title": "User Role Management",
+		"icon": "user",
+		"description": "Control access with role-based permissions. Ensure the right people have the right tools.",
+		"category": "Security"
+	},
+	{
+		"title": "Custom Themes",
+		"icon": "paint-brush",
+		"description": "Personalize your workspace look and feel. Choose themes that reflect your brand’s identity.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Data Backup",
+		"icon": "circle-stack",
+		"description": "Keep your data safe with regular backups. Quickly restore information if unexpected issues occur.",
+		"category": "Security"
+	},
+	{
+		"title": "Performance Tracking",
+		"icon": "arrow-trending-up",
+		"description": "Track and monitor performance to boost efficiency. Use insights to make informed improvements.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Interactive Tutorials",
+		"icon": "document-chart-bar",
+		"description": "Learn by doing with guided tutorials. Quickly master Foxi’s tools with hands-on assistance.",
+		"category": "Support"
+	},
+	{
+		"title": "Custom Widgets",
+		"icon": "squares-plus",
+		"description": "Add and configure widgets on your dashboard. Display the information most relevant to your needs.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Data Visualization",
+		"icon": "eye",
+		"description": "Transform complex data into clear charts and visuals. Make insights easier to understand and share.",
+		"category": "Analytics"
+	},
+	{
+		"title": "Integration Marketplace",
+		"icon": "shopping-cart",
+		"description": "Explore integrations and plugins in our marketplace. Extend Foxi with third-party solutions.",
+		"category": "Integrations"
+	},
+	{
+		"title": "Onboarding Assistance",
+		"icon": "user",
+		"description": "Get step-by-step onboarding support. Start using Foxi quickly with guidance from our experts.",
+		"category": "Support"
+	},
+	{
+		"title": "Knowledge Base",
+		"icon": "document-text",
+		"description": "Find answers in our extensive knowledge base. Access articles, guides, and FAQs anytime.",
+		"category": "Support"
+	},
+	{
+		"title": "Live Chat Support",
+		"icon": "chat-bubble-left-ellipsis",
+		"description": "Connect instantly with support via live chat. Get quick answers and solutions in real time.",
+		"category": "Support"
+	},
+	{
+		"title": "Customizable Workspaces",
+		"icon": "cursor-arrow-ripple",
+		"description": "Adjust layouts and settings to build a workspace that fits your personal workflow.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Task Automation",
+		"icon": "rectangle-stack",
+		"description": "Automate repetitive tasks and processes. Save time and focus on work that matters most.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Accessibility Features",
+		"icon": "eye-slash",
+		"description": "Ensure your workspace is accessible to everyone, including team members with disabilities.",
+		"category": "Security"
+	},
+	{
+		"title": "Enhanced Mobile Access",
+		"icon": "mobile",
+		"description": "Work seamlessly on mobile with improved access and performance features.",
+		"category": "Security"
+	},
+	{
+		"title": "Advanced Bug Tracking",
+		"icon": "bug-ant",
+		"description": "Track, prioritize, and resolve bugs efficiently with advanced project tracking tools.",
+		"category": "Productivity"
+	},
+	{
+		"title": "Comprehensive Support Hub",
+		"icon": "scale",
+		"description": "Access a full library of support resources — from troubleshooting to advanced tips.",
+		"category": "Support"
+	},
+	{
+		"title": "Voice Recording",
+		"icon": "microphone",
+		"description": "Record and manage voice notes directly within Foxi for easier collaboration.",
+		"category": "Support"
+	},
+	{
+		"title": "User Identity Verification",
+		"icon": "identification",
+		"description": "Protect your organization with secure identity verification and authentication tools.",
+		"category": "Security"
+	},
+	{
+		"title": "Payment Integrations",
+		"icon": "credit-card",
+		"description": "Offer flexible payment options with secure integrations for smooth transactions.",
+		"category": "Integrations"
+	},
+	{
+		"title": "Transparent API",
+		"icon": "cube-transparent",
+		"description": "Seamlessly connect with third-party APIs for smooth data exchange and extended functionality.",
+		"category": "Integrations"
+	},
+	{
+		"title": "CRM Integrations",
+		"icon": "light-bulb",
+		"description": "Sync with leading CRMs to streamline customer management and relationship processes.",
+		"category": "Integrations"
+	},
+	{
+		"title": "API Key Management",
+		"icon": "key",
+		"description": "Securely integrate and manage multiple API keys for reliable connections.",
+		"category": "Integrations"
+	}
+]

@@ -1,0 +1,168 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'KLOOW | Terms of Service',
+	description:
+		"KLOOW's Terms of Service outline the rules and guidelines for using our SaaS tools. Please review them to understand your rights and responsibilities."
+}
+
+// - Page Header
+const header = {
+	title: 'Terms and Conditions: Clear, Simple, <strong>Trusted</strong>',
+	text: 'Please review these terms to understand your rights and responsibilities while using KLOOW.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Introduction</h3>
+			<p>
+				Please take a moment to read through these terms to understand your rights and
+				responsibilities while using our services.
+			</p>
+		</div>
+		<div class="basic-text">
+			<h4>Welcome to KLOOW</h4>
+			<p>
+				We’re excited to have you on board. KLOOW provides powerful SaaS tools to simplify
+				and automate digital marketing for startups, brands, and agencies. By using our
+				platform, you agree to these Terms of Service, so please take a moment to read them
+				carefully.
+			</p>
+			<p>
+				Your success matters to us. If you have any questions about these terms, our team is
+				here to help and ensure you get the most out of KLOOW.
+			</p>
+
+			<h4>Acceptance of Terms</h4>
+			<p>
+				By accessing or using our services, you agree to comply with and be bound by these
+				Terms of Service and our Privacy Policy. If you do not agree with any part of these
+				terms, you should not use our services. Continued use of KLOOW confirms your
+				acceptance of these terms.
+			</p>
+			<p>
+				We may update these terms from time to time. Any changes will be posted on our
+				website, and it is your responsibility to review them periodically. Ongoing use of
+				our services after updates means you accept the revised terms.
+			</p>
+
+			<h4>Our Commitment to You</h4>
+			<p>
+				At KLOOW, we are committed to providing innovative, reliable, and high-quality tools
+				that help you streamline marketing workflows, enhance productivity, and grow your
+				business. We continually work to improve our platform so you always have the best
+				possible experience.
+			</p>
+			<p>
+				We welcome your feedback and ideas. Share your thoughts with us, and together we’ll
+				make KLOOW even better at helping you achieve your marketing goals.
+			</p>
+		</div>
+	</SidebarContent>
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>User Accounts</h3>
+			<p></p>
+		</div>
+		<div class="basic-text">
+			<h4>Registration</h4>
+			<p>
+				To access certain features of KLOOW, you must create a user account. By registering,
+				you agree to provide accurate and complete information. This helps us deliver the
+				best experience while maintaining the security and reliability of your account.
+			</p>
+			<p>
+				You also agree to keep your information up to date. Outdated or inaccurate details
+				may cause issues with your account and limit access to certain features of KLOOW.
+			</p>
+
+			<h4>Account Security</h4>
+			<p>
+				You are responsible for keeping your account secure. Your password must remain
+				confidential, and you should never share it with others. If you notice any
+				unauthorized activity, please notify us immediately.
+			</p>
+			<p>
+				We recommend creating a strong, unique password and updating it regularly. If
+				two-factor authentication is available, we encourage you to enable it for added
+				protection.
+			</p>
+
+			<h4>Account Usage</h4>
+			<p>
+				As the account holder, you are responsible for all actions taken under your account,
+				including those by anyone with access to it. Please monitor and manage account
+				activity to prevent misuse.
+			</p>
+			<p>
+				If suspicious or unauthorized activity is detected, KLOOW may take steps to protect
+				your account, such as temporarily suspending access or requiring additional
+				verification. Our priority is to safeguard your account and personal information.
+			</p>
+		</div>
+	</SidebarContent>
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Limitation of Liability</h3>
+			<p>
+				This section explains the limits of KLOOW’s liability in connection with the use of
+				our services. Understanding these limitations helps clarify our responsibilities and
+				your rights.
+			</p>
+		</div>
+		<div class="basic-text">
+			<h4>General Limitations</h4>
+			<p>
+				KLOOW is provided on an "as is" and "as available" basis. We do not guarantee that
+				the service will be uninterrupted, error-free, or fully secure. We disclaim all
+				warranties, whether express or implied, including but not limited to warranties of
+				merchantability, fitness for a particular purpose, and non-infringement.
+			</p>
+			<p>
+				KLOOW is not liable for any damages resulting from the use or inability to use our
+				services. This includes, but is not limited to, direct, indirect, incidental,
+				special, consequential, or punitive damages, such as loss of profits, data, or other
+				intangible losses.
+			</p>
+
+			<h4>Third-Party Services</h4>
+			<p>
+				Our platform may include integrations or links to third-party websites and services
+				not owned or controlled by KLOOW. We do not endorse, guarantee, or assume
+				responsibility for any third-party sites, materials, products, or services.
+				Accessing or using third-party services is at your own risk.
+			</p>
+			<p>
+				KLOOW is not liable for any loss or damage arising from interactions with
+				third-party websites or services, including the sharing of your information. It is
+				your responsibility to review the terms and privacy policies of any third-party
+				services you choose to use.
+			</p>
+
+			<h4>Maximum Liability</h4>
+			<p>
+				In no event shall KLOOW’s total liability to you for all claims related to the use
+				of, or inability to use, the services exceed the total amount you paid, if any, for
+				accessing KLOOW during the twelve (12) months immediately preceding the claim. This
+				limitation applies regardless of the type of claim, whether based on contract,
+				warranty, tort, or otherwise.
+			</p>
+			<p>
+				Some jurisdictions do not permit the exclusion or limitation of liability for
+				incidental or consequential damages. In such cases, KLOOW’s liability will be
+				limited to the maximum extent permitted by applicable law.
+			</p>
+		</div>
+	</SidebarContent>
+</Layout>

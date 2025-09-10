@@ -1,0 +1,51 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import Price from '../components/blocks/pricing/PricingColumns.astro'
+import SocialProof from '../components/blocks/socialproof/Basic.astro'
+import FAQ from '../components/blocks/FAQ/Basic.astro'
+import Testimonial from '../components/blocks/testimonials/BasicDark.astro'
+import Feature from '../components/blocks/features/FeatureList.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'KLOOW | Simple, scalable pricing',
+	description:
+		'Find the right plan for your startup, brand, or agency. KLOOW offers flexible SaaS pricing with powerful features and dedicated support to help you grow.'
+}
+
+// - Page Header
+const header = {
+	title: 'Choose the plan built for <strong>your growth</strong>',
+	text: 'Every plan comes with a 30-day money-back guarantee so you can try KLOOW risk-free.'
+}
+// - Testimonial data
+import testimonialBackground from '../assets/testimonial-bg-02-new.png'
+const testimonialData = {
+	blockquote:
+		"KLOOW isn’t just a platform, it’s like having a brilliant sidekick for your business. It streamlines your marketing tasks and makes collaboration feel effortless.",
+	figcaption: 'Max Widgetson',
+	cite: ' CEO, Widgetify Ltd'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<Price />
+	<SocialProof />
+	<Feature />
+	<Testimonial
+		bg={testimonialBackground}
+		bgPosition="center"
+		blockquote={testimonialData.blockquote}
+		figcaption={testimonialData.figcaption}
+		cite={testimonialData.cite}
+	/>
+	<FAQ classes="bg-slate-50 dark:bg-neutral-900/40" />
+	<CTA />
+</Layout>

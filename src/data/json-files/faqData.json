@@ -1,0 +1,50 @@
+[
+	{
+		"question": "What does KLOOW actually do?",
+		"reply": "KLOOW is your business sidekick. It simplifies marketing tasks, helps you stay organized, and makes teamwork seamless. Whether you’re a solo founder or part of a growing team, KLOOW keeps everything flowing smoothly.",
+		"category": "general",
+		"open": true
+	},
+	{
+		"question": "Is KLOOW good for small businesses or startups?",
+		"reply": "Absolutely! KLOOW is built for agility. Startups and small teams use it to cut down on repetitive marketing tasks and focus more on growth without drowning in admin work.",
+		"category": "general",
+		"open": false
+	},
+	{
+		"question": "Does KLOOW offer a free trial?",
+		"reply": "Yes, you can try KLOOW free for 14 days. Explore all features, collaborate with your team, and see how much time you save — no credit card required.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "What’s included in the paid plans?",
+		"reply": "All plans include our core marketing automation tools, team collaboration features, and 24/7 support. Higher plans unlock advanced integrations and analytics so you can scale with confidence.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "Can I cancel my subscription anytime?",
+		"reply": "Of course. You can cancel with a single click in your dashboard. You’ll still have access until your billing cycle ends — no hidden hoops to jump through.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "Does KLOOW integrate with my existing tools?",
+		"reply": "Yes! KLOOW connects seamlessly with popular tools like Slack, Google Workspace, and social platforms. That way, your team can keep using what they love — but with KLOOW making it all easier.",
+		"category": "integrations",
+		"open": true
+	},
+	{
+		"question": "How does KLOOW support collaboration?",
+		"reply": "With shared dashboards, task assignments, and real-time updates, KLOOW makes working together effortless. Everyone stays in sync, and projects move forward without the usual back-and-forth.",
+		"category": "collaboration",
+		"open": false
+	},
+	{
+		"question": "Is my data secure with KLOOW?",
+		"reply": "Yes. KLOOW uses enterprise-grade encryption and regular security audits to keep your data safe. We take privacy and protection seriously, so you can focus on your business worry-free.",
+		"category": "security",
+		"open": false
+	}
+]

@@ -1,0 +1,75 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-01.svg'
+import feature02 from '../../../assets/cards/feature-02.svg'
+import feature03 from '../../../assets/cards/feature-03.svg'
+import feature04 from '../../../assets/cards/feature-04.svg'
+import feature05 from '../../../assets/cards/feature-05.svg'
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty">
+				Innovative SaaS Tools to <strong>Transform</strong> Your Marketing Workflow
+			</h2>
+			<p class="pb-0 text-lg">
+				Unlock a powerful suite of automation tools designed to streamline campaigns, boost
+				productivity, and accelerate growth. Every solution is crafted with precision to
+				help startups, brands, and agencies simplify digital marketing and achieve more with
+				less effort.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="All your data, unified"
+				subtitle="Bring campaigns, analytics, and insights together in one place for a clear view of your marketing performance."
+				image={feature01}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Smarter project management"
+				subtitle="Organize campaigns, assign tasks, and track progress with ease to keep your marketing on schedule."
+				image={feature02}
+				link="/features"
+			/>
+			<Card
+				title="Stay connected with your team"
+				subtitle="Collaborate in real time with built-in chat, file sharing, and updates that keep everyone aligned."
+				image={feature03}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Manage customer relationships"
+				subtitle="Track leads, nurture prospects, and strengthen connections with our integrated CRM solution."
+				image={feature04}
+				link="/features"
+			/>
+			<Card
+				title="Simplify your finances"
+				subtitle="Automate billing and invoicing so you can focus on growing your business, not chasing payments."
+				image={feature05}
+				link="/features"
+			/>
+		</Col>
+	</Row>
+</Section>

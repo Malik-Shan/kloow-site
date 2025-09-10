@@ -1,0 +1,55 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import FAQ from '../components/blocks/FAQ/FaqSticky.astro'
+import TextImage from '../components/blocks/basic/TextImage.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Data
+import faqData from '../data/json-files/faqData.json'
+// - FAQ Categories
+const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
+const faqIntegrations = faqData.filter((faq) => faq.category === 'integrations')
+
+// Content
+import faqImage1 from '../assets/faq/faq-01.png'
+// - SEO
+const SEO = {
+	title: 'KLOOW | Your Questions, Answered Simply',
+	description:
+		'Explore the KLOOW FAQ hub to find clear answers about pricing, features, integrations, and more. See how KLOOW helps you streamline marketing and makes teamwork effortless.'
+}
+
+// - Page Header
+const header = {
+	title: 'Everything you need to know about <strong>KLOOW</strong>',
+	text: 'Quick answers to common questions, so you can get back to growing your business.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<FAQ
+		title="Understanding Our Pricing Plans"
+		text="See how KLOOW keeps pricing simple and flexible. From solo founders to growing teams, explore plans that fit your needs and budget — with no hidden surprises."
+		data={faqPricing}
+	/>
+	<TextImage
+		title="Why KLOOW’s Pricing is Built for You"
+		text="KLOOW isn’t about locking you into confusing tiers — it’s about delivering value at every level. Our plans are designed for agility, giving startups, small businesses, and larger teams the right mix of tools, integrations, and support to grow confidently."
+		image={faqImage1}
+		mobileImage={faqImage1}
+		imagePosition="left"
+		offsetImage
+		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
+	/>
+	<FAQ
+		title="Seamless Integrations"
+		text="KLOOW plays nicely with the tools you already love — from Slack to Google Workspace and beyond. Connect your stack in minutes and keep your workflow running without friction."
+		data={faqIntegrations}
+	/>
+	<CTA />
+</Layout>

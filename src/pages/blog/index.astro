@@ -1,0 +1,36 @@
+---
+// Blog Index Page
+// ------------
+// Description: The blog index page.
+
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import Hero from '../../components/blocks/hero/PageHeader.astro'
+import BlogPosts from '../../components/blocks/blog/BlogPosts.astro'
+
+// Data
+import { getCollection } from 'astro:content'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'KLOOW | Latest KLOOW News and Updates',
+	description:
+		"Discover the latest news from KLOOW designed to simplify marketing tasks, improve collaboration, and keep your business running smoothly. Stay informed and get the most out of your KLOOW experience!"
+}
+
+// - Page Header
+const header = {
+	title: 'The <strong>KLOOW</strong> Blog. Tips, Updates & Stories',
+	text: 'Stay informed, stay productive. All the latest from the world of KLOOW.'
+}
+
+const allPosts = await getCollection('blog')
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<BlogPosts data={allPosts} />
+</Layout>

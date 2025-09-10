@@ -1,0 +1,78 @@
+[
+	{
+		"header": {
+			"title": "Basic",
+			"subtitle": "Ideal for individual marketers and freelancers.",
+			"currency": "$",
+			"price": "19",
+			"priceLabel": "month, billed annually",
+			"priceMontly": "25",
+			"priceLabelMontly": "month",
+			"buttonName": "Try for free",
+			"buttonLink": "/"
+		},
+		"body": {
+			"listItems": [
+				{ "listItem": "Access core marketing automation tools" },
+				{ "listItem": "Track campaigns and performance in real time" },
+				{ "listItem": "Collaborate with clients and partners easily" }
+			]
+		},
+		"footer": {
+			"buttonName": "See all features",
+			"buttonLink": "/"
+		},
+		"type": "basic"
+	},
+	{
+		"header": {
+			"title": "Team",
+			"subtitle": "Perfect for growing startups and small teams.",
+			"currency": "$",
+			"price": "29",
+			"priceLabel": "month, billed annually",
+			"priceMontly": "35",
+			"priceLabelMontly": "month",
+			"buttonName": "Try for free",
+			"buttonLink": "/"
+		},
+		"body": {
+			"listItems": [
+				{ "listItem": "Everything in Basic, plus advanced integrations" },
+				{ "listItem": "Manage projects and tasks with ease" },
+				{ "listItem": "Centralize team communication" },
+				{ "listItem": "Automated workflows to save time" }
+			]
+		},
+		"footer": {
+			"buttonName": "See all features",
+			"buttonLink": "/"
+		},
+		"type": "featured"
+	},
+	{
+		"header": {
+			"title": "Enterprise",
+			"subtitle": "Built for established companies and agencies.",
+			"currency": "$",
+			"price": "49",
+			"priceLabel": "month, billed annually",
+			"priceMontly": "65",
+			"priceLabelMontly": "month",
+			"buttonName": "Try for free",
+			"buttonLink": "/"
+		},
+		"body": {
+			"listItems": [
+				{ "listItem": "Everything in Team, plus enterprise-grade security" },
+				{ "listItem": "Dedicated account management" },
+				{ "listItem": "Custom integrations and API access" }
+			]
+		},
+		"footer": {
+			"buttonName": "See all features",
+			"buttonLink": "/"
+		},
+		"type": "basic"
+	}
+]
