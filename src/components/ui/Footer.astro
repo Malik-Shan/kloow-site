@@ -12,7 +12,7 @@ import { Icon } from 'astro-icon/components'
 import { socialLinks } from '../../config/socialLinks'
 import { footerNavigationData } from '../../config/footerNavigation'
 
-const { footerAbout, footerColumns, subFooter } = footerNavigationData
+const { footerAbout, footerColumns,contact, subFooter } = footerNavigationData
 ---
 
 <footer class="footer">
@@ -44,6 +44,16 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 						</div>
 					))
 				}
+				<div class="footer__col">
+					<h3>Contact Us</h3>
+					<a  href={`tel:${contact.number1}`}>{contact.number1}</a>
+					<a class='block mb-2' href={`tel:${contact.number2}`}>{contact.number2}</a>
+					<a href={`mailto:${contact.email1}`}>{contact.email1}</a>
+					<a class='block mb-2' href={`mailto:${contact.email2}`}>{contact.email2}</a>
+					<p>
+						{contact.address}
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

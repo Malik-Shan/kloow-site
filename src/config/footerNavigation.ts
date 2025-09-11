@@ -31,7 +31,15 @@ export interface SubFooter {
 export interface FooterData {
 	footerAbout: FooterAbout
 	footerColumns: FooterColumn[]
+	contact:Contact
 	subFooter: SubFooter
+}
+export interface Contact{
+	email1:string
+	email2:string
+	number1:string
+	number2:string
+	address:string
 }
 
 export const footerNavigationData: FooterData = {
@@ -89,24 +97,14 @@ export const footerNavigationData: FooterData = {
 				}
 			]
 		},
-		{
-			category: 'Get in touch',
-			subCategories: [
-				{
-					subCategory: 'Contact',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Support',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Join us',
-					subCategoryLink: '/contact'
-				}
-			]
-		}
 	],
+	contact:{
+		email1:'info@kloow.com',
+		email2:'brany@kloow.com',
+		number1:'+17575719996',
+		number2:'+18022556844',
+		address:"BRANY SIMEON CHACO HUISA 1603 Capitol Ave Suite 413 C1713 Cheyenne, WY 82001 United States",
+	},
 	subFooter: {
 		copywriteText: '© Kloow 2025.'
 	}
